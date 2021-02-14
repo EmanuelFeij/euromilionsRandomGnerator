@@ -1,3 +1,3 @@
 # euromilionsRandomGnerator
 
-A random EuroMillions key generator, to pratcice the Go Languague. 
+A random EuroMillions key generator, to practice the Go language 
