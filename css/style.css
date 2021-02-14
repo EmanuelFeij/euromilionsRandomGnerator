@@ -1,0 +1,73 @@
+body {
+    width: 100%;
+    height: 100%;
+    background:rgba(219, 180, 128, 0.5);
+
+}
+h1 {
+    text-align: center;
+    color: rgb(146, 146, 128);
+    
+}
+.container {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 35%;
+    background: linear-gradient( rgb(95, 89, 56),rgb(168, 165, 147));
+    margin: 0;
+    padding: auto ;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+.container .numbers ul{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:0;
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.container .numbers ul li{
+    width: 18%;
+    font-size: 1em;
+    background-color: blueviolet;
+    padding: 6px;
+    border-radius: 20px;
+    border: darkviolet 1px solid;
+}
+.container .stars ul{
+    padding:0%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.container .stars ul li{
+    width:18%;
+    font-size:200;
+    background-color: rgb(219, 195, 58);
+    padding: 10px;
+    border-radius: 20px;
+    border: rgb(245, 211, 18) 1px solid;
+}
+
+.buttons {
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
